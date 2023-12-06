@@ -1,12 +1,14 @@
 // store.js
 import { configureStore } from '@reduxjs/toolkit';
 import authReducer from './authSlice';
-import leaveReducer from '../Components/Leave/LeaveSlice'; // Import the leave reducer
+import leaveReducer from '../Components/Leave/LeaveSlice'; 
+import leaveStatusReducer from '../Components/LeaveStatusSlice';
 
 const store = configureStore({
   reducer: {
     auth: authReducer,
-    leave: leaveReducer, // Include the leave reducer
+    leave: leaveReducer,
+    leaveStatus: leaveStatusReducer,
   },
 });
 

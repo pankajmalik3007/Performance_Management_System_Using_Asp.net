@@ -1,51 +1,16 @@
-// // AuthContext.js
-// import { createContext, useContext, useState, useEffect } from 'react';
 
-// const AuthContext = createContext();
 
-// export const useAuth = () => useContext(AuthContext);
 
-// export const AuthProvider = ({ children }) => {
-//   const [user, setUser] = useState(null);
-//   const [loading, setLoading] = useState(true);
 
-  
-//   useEffect(() => {
-//     const fetchUserData = async () => {
-//       try {
-       
-//         const response = await fetch('/api/user');
-//         const userData = await response.json();
 
-//         setUser(userData);
-//       } catch (error) {
-//         console.error('Error fetching user data:', error);
-//       } finally {
-       
-//         setLoading(false);
-//       }
-//     };
 
-   
-//     fetchUserData();
-//   }, []);
 
-//   const login = (userData) => {
-//     setUser(userData);
-//   };
 
-//   const logout = () => {
-//     setUser(null);
-//   };
 
-//   return (
-//     <AuthContext.Provider value={{ user, login, logout, loading }}>
-//       {children}
-//     </AuthContext.Provider>
-//   );
-// };
-// AuthContext.js
-import { createContext, useContext, useState } from 'react';
+
+//Working Code
+
+import { createContext, useContext, useState, useEffect } from 'react';
 
 const AuthContext = createContext();
 
@@ -60,17 +25,39 @@ export const useAuth = () => {
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
-  const login = (userData) => {
-    setUser(userData);
-  };
+  useEffect(() => {
+    const fetchUserFromApi = async () => {
+      try {
+        const response = await fetch('https://localhost:44356/api/User/GetAllUserType', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
 
-  const logout = () => {
-    setUser(null);
-  };
+        if (!response.ok) {
+          throw new Error('Failed to fetch user data');
+        }
+
+        const userData = await response.json();
+        setUser(userData);
+      } catch (error) {
+        console.error('Error fetching user data:', error.message);
+      }
+    };
+
+    if (!user) {
+      fetchUserFromApi();
+    }
+  }, [user]);
 
   return (
-    <AuthContext.Provider value={{ user, login, logout }}>
+    <AuthContext.Provider value={{ user }}>
       {children}
     </AuthContext.Provider>
   );
 };
+
+
+
+
