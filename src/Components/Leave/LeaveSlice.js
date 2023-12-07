@@ -73,22 +73,22 @@ export const submitLeaveApplication = createAsyncThunk(
         let errorMessage;
 
         try {
-          // Attempt to parse the response as JSON
+        
           const errorJson = await response.json();
           errorMessage = errorJson.message || 'Failed to parse error message';
         } catch (jsonError) {
-          // Fallback to using the raw response text
+         
           errorMessage = response.statusText || 'Unknown error occurred';
         }
 
-        console.error('Error:', errorMessage); // Log the error
+        console.error('Error:', errorMessage); 
         throw new Error(errorMessage);
       }
 
       const data = await response.json();
       return data;
     } catch (error) {
-      console.error('Error:', error.message); // Log the error
+      console.error('Error:', error.message); 
       return rejectWithValue(error.message);
     }
   }

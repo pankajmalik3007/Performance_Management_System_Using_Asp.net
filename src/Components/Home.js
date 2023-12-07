@@ -16,6 +16,9 @@ const Home = () => {
           <li>
             <Link to="/home/leavestatus">Leave Status App</Link>
           </li>
+          <li>
+            <Link to="/home/leavehistory">Leave History</Link>
+          </li>
         </ul>
       </nav>
       
