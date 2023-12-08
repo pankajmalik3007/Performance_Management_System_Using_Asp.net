@@ -18,10 +18,10 @@ const PrivateRoute = () => {
   }
 
   const isHR = user?.role === 'HR';
-  console.log('User:', user);
+ // console.log('User:', user);
 
-  console.log('User Role:', user?.role);
-  console.log('Is HR:', isHR);
+  //console.log('User Role:', user?.role);
+ // console.log('Is HR:', isHR);
 
   return (
     <div>

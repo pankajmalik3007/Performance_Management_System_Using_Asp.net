@@ -64,10 +64,10 @@ export const useAuth = () => {
 
 export const AuthProvider = ({ children }) => {
   const storedToken = localStorage.getItem('token');
-  console.log('Stored Token:', storedToken);
+  //console.log('Stored Token:', storedToken);
 
   const decodedToken = storedToken ? JSON.parse(atob(storedToken.split('.')[1])) : null;
-  console.log('Decoded Token:', decodedToken);
+  //console.log('Decoded Token:', decodedToken);
 
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);

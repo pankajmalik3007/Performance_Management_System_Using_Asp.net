@@ -96,14 +96,12 @@
 
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './Components/Login';
-import Home from './Components/Home';
-import LeaveApp from './Components/Leave/LeaveApplication';
+
 import { AuthProvider } from './Components/AuthContext';
 import PrivateRoute from './Components/Leave/PrivateRoute'; 
-import LeaveStatus from './Components/Leave/LeaveStatus';
-import LeaveHistory from './Components/Leave/LeaveHistory';
+
 
 const AuthContext = createContext();
 
@@ -136,13 +134,13 @@ function App() {
   const handleLogin = (token) => {
     localStorage.setItem('yourTokenKey', token);
     setIsAuthenticated(true);
-    // You may redirect to the home page here
+    
   };
 
   const handleLogout = () => {
     localStorage.removeItem('yourTokenKey');
     setIsAuthenticated(false);
-    // You may redirect to the login page here
+   
   };
 
   return (
@@ -162,7 +160,7 @@ function App() {
 }
 
 const validateTokenOnServer = async () => {
-  return true; // Replace with your actual token validation logic
+  return true; 
 };
 
 export default App;
