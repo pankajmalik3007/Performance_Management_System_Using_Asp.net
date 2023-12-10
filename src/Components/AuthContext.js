@@ -10,9 +10,18 @@
 //   }
 //   return contextValue;
 // };
-
 // export const AuthProvider = ({ children }) => {
+//   const storedToken = localStorage.getItem('token');
+//   console.log('Stored Token:', storedToken);
+
+//   const decodedToken = storedToken ? JSON.parse(atob(storedToken.split('.')[1])) : null;
+//   console.log('Decoded Token:', decodedToken);
 //   const [user, setUser] = useState(null);
+//   const [isLoading, setIsLoading] = useState(true);
+//   const [userDataLoaded, setUserDataLoaded] = useState(false);
+
+// // export const AuthProvider = ({ children }) => {
+// //   const [user, setUser] = useState(null);
 
 //   useEffect(() => {
 //     const fetchUserFromApi = async () => {
@@ -40,13 +49,24 @@
 //     }
 //   }, [user]);
 
-//   return (
-//     <AuthContext.Provider value={{ user }}>
-//       {children}
-//     </AuthContext.Provider>
-//   );
+// //   return (
+// //     <AuthContext.Provider value={{ user }}>
+// //       {children}
+// //     </AuthContext.Provider>
+// //   );
+// // };
+// const mergedUser = {
+//   ...(user || {}),
+//   ...(decodedToken || {}),
+//   role: decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
 // };
 
+// return (
+//   <AuthContext.Provider value={{ user: mergedUser, isHR: mergedUser?.role === 'HR', isLoading, userDataLoaded }}>
+//     {children}
+//   </AuthContext.Provider>
+// );
+// };
 
 
 
@@ -64,10 +84,10 @@ export const useAuth = () => {
 
 export const AuthProvider = ({ children }) => {
   const storedToken = localStorage.getItem('token');
-  //console.log('Stored Token:', storedToken);
+  console.log('Stored Token:', storedToken);
 
   const decodedToken = storedToken ? JSON.parse(atob(storedToken.split('.')[1])) : null;
-  //console.log('Decoded Token:', decodedToken);
+  console.log('Decoded Token:', decodedToken);
 
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -102,12 +122,19 @@ export const AuthProvider = ({ children }) => {
     }
   }, [user]);
 
+  // const mergedUser = {
+  //   ...(user || {}),
+  //   ...(decodedToken || {}),
+  //   role: decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
+  // };
   const mergedUser = {
     ...(user || {}),
     ...(decodedToken || {}),
-    role: decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
+    role: decodedToken && decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role']
+      ? decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role']
+      : null,
   };
-
+  
   return (
     <AuthContext.Provider value={{ user: mergedUser, isHR: mergedUser?.role === 'HR', isLoading, userDataLoaded }}>
       {children}

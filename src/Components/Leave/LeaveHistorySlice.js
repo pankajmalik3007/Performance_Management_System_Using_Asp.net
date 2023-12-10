@@ -78,10 +78,9 @@ const getToken = () => {
 export const getLeaveHistory = createAsyncThunk(
   'leaveHistory/getLeaveHistory',
   async (_, { rejectWithValue }) => {
-    console.log('Inside LeaveHistory render');
     try {
-      const token = getToken();
-const userId = JSON.parse(atob(token.split('.')[1])).UserId;
+      const token =  getToken();
+const userId = await JSON.parse(atob(token.split('.')[1])).UserId;
 
 
      

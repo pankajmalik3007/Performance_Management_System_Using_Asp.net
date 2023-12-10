@@ -5,6 +5,7 @@ import Home from '../Home';
 import LeaveApp from './LeaveApplication';
 import LeaveStatus from './LeaveStatus';
 import LeaveHistory from './LeaveHistory';
+import ClockInOut from '../TimeManagement/ClockInOut';
 
 const PrivateRoute = () => {
   const { user, isLoading, userDataLoaded } = useAuth();
@@ -29,6 +30,7 @@ const PrivateRoute = () => {
       <Routes>
         <Route path="leaveapp" element={<LeaveApp />} />
         <Route path="leavehistory" element={<LeaveHistory />} />
+        {/* <Route path ="TimeManagement" element ={<ClockInOut/>}/> */}
         {isHR ? (
           <Route path="leavestatus" element={<LeaveStatus />} />
         ) : (
