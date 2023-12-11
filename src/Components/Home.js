@@ -179,7 +179,7 @@ const Home = () => {
       const token = getToken();
       const userId = await JSON.parse(atob(token.split('.')[1])).UserId;
 
-      // Assuming CLOCK_IN_API and CLOCK_OUT_API are defined in ClockInOutSlice
+     
       const response = await fetch(
         isClockedIn ? CLOCK_OUT_API : CLOCK_IN_API,
         {
@@ -248,13 +248,21 @@ const Home = () => {
           <Button color="inherit" component={RouterLink} to="/Home/leavehistory" style={{ textDecoration: 'none', color: 'inherit', marginLeft: 16 }}>
             Leave History
           </Button>
-
-          {/* ClockInOut Button */}
+          <Button color="inherit" component={RouterLink} to="/Home/userhistory" style={{ textDecoration: 'none', color: 'inherit', marginLeft: 16 }}>
+            User History
+          </Button>
+          <Button color="inherit" component={RouterLink} to="/Home/Attendencehistory" style={{ textDecoration: 'none', color: 'inherit', marginLeft: 16 }}>
+            Attendence History
+          </Button>
+          <Button color="inherit" component={RouterLink} to="/Home/ManualRequest" style={{ textDecoration: 'none', color: 'inherit', marginLeft: 16 }}>
+          ManualRequest 
+          </Button>
+          
           <Button color="inherit" onClick={handleClockInOut} disabled={clockInOutLoading} style={{ marginLeft: 16 }}>
             {isClockedIn ? <AlarmOffIcon /> : <AlarmAddIcon />}
           </Button>
 
-          {/* StartFinishBreak Button */}
+          
           {clockInClicked && (
             <>
               <Button color="inherit" onClick={handleStartFinishBreak} disabled={startFinishLoading} style={{ marginLeft: 16 }}>

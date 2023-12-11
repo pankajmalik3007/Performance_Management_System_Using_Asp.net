@@ -96,7 +96,7 @@
 
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './Components/Login';
 
 import { AuthProvider } from './Components/AuthContext';
@@ -146,10 +146,11 @@ function App() {
   return (
     <Router>
       <AuthProvider>
-        <AuthContext.Provider value={{ isAuthenticated, handleLogout }}>
+        <AuthContext.Provider value={{ isAuthenticated }}>
           <div className="App">
             <Routes>
-              <Route path="/login" element={<Login onLogin={handleLogin} />} />
+              <Route path="/*" element={<Navigate to="/login" />} />
+              <Route path="/login" element={<Login />} />
               <Route path="/home/*" element={<PrivateRoute />} />
             </Routes>
           </div>

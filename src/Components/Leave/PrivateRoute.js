@@ -7,6 +7,11 @@ import LeaveStatus from './LeaveStatus';
 import LeaveHistory from './LeaveHistory';
 import ClockInOut from '../TimeManagement/ClockInOut';
 
+import UserDetailsByName from '../UserComponent/UserDetailsByName';
+import Attendence from './UserAttendence/Attendence';
+import ManualRequestComponent from '../ManualRequest/ManualRequestComponent';
+
+
 const PrivateRoute = () => {
   const { user, isLoading, userDataLoaded } = useAuth();
 
@@ -24,21 +29,30 @@ const PrivateRoute = () => {
   //console.log('User Role:', user?.role);
  // console.log('Is HR:', isHR);
 
-  return (
-    <div>
-      <Home />
-      <Routes>
-        <Route path="leaveapp" element={<LeaveApp />} />
-        <Route path="leavehistory" element={<LeaveHistory />} />
-        {/* <Route path ="TimeManagement" element ={<ClockInOut/>}/> */}
-        {isHR ? (
+ return (
+  <div>
+    <Home />
+    <Routes>
+      <Route path="leaveapp" element={<LeaveApp />} />
+      <Route path="leavehistory" element={<LeaveHistory />} />
+      <Route path = " Attendencehistory" element={<Attendence/>}/>
+      <Route path = "ManualRequest" element = {<ManualRequestComponent/>}/>
+      {isHR ? (
+        <>
+          <Route path="userhistory" element={<UserDetailsByName />} />
           <Route path="leavestatus" element={<LeaveStatus />} />
-        ) : (
+        </>
+      ) : (
+        <>
+          <Route path="userhistory" element={<p>You do not have access to this page.</p>} />
           <Route path="leavestatus" element={<p>You do not have access to this page.</p>} />
-        )}
-      </Routes>
-    </div>
-  );
+        </>
+      )}
+    </Routes>
+  </div>
+);
+
+
 };
 
 export default PrivateRoute;
