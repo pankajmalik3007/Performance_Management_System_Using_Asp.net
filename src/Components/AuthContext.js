@@ -122,11 +122,7 @@ export const AuthProvider = ({ children }) => {
     }
   }, [user]);
 
-  // const mergedUser = {
-  //   ...(user || {}),
-  //   ...(decodedToken || {}),
-  //   role: decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
-  // };
+   
   const mergedUser = {
     ...(user || {}),
     ...(decodedToken || {}),

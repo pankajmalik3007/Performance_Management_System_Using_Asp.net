@@ -10,6 +10,8 @@ import ClockInOut from '../TimeManagement/ClockInOut';
 import UserDetailsByName from '../UserComponent/UserDetailsByName';
 import Attendence from './UserAttendence/Attendence';
 import ManualRequestComponent from '../ManualRequest/ManualRequestComponent';
+import UserReport from '../UserReportHistory/UserReport';
+
 
 
 const PrivateRoute = () => {
@@ -37,6 +39,8 @@ const PrivateRoute = () => {
       <Route path="leavehistory" element={<LeaveHistory />} />
       <Route path = " Attendencehistory" element={<Attendence/>}/>
       <Route path = "ManualRequest" element = {<ManualRequestComponent/>}/>
+      <Route path = "report" element = {<UserReport/>}/>
+   
       {isHR ? (
         <>
           <Route path="userhistory" element={<UserDetailsByName />} />

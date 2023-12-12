@@ -10,6 +10,7 @@ import startFinishBreakReducer from '../Components/TimeManagement/StartFinishBre
 import userReducer  from '../Components/UserComponent/userSlice';
 import userAttendanceReducer from '../Components/Leave/UserAttendence/UserAttendenceSlice';
 import manualRequestReducer from '../Components/ManualRequest/ManualRequestSlice';
+import userReportReducer from '../Components/UserReportHistory/UserReportSlice';
 
 const store = configureStore({
   reducer: {
@@ -23,7 +24,7 @@ const store = configureStore({
     user: userReducer,
     userAttendance: userAttendanceReducer,
     manualRequest: manualRequestReducer,
-   
+    userReport: userReportReducer,
     
   },
 });
