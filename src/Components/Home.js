@@ -467,6 +467,9 @@ const Home = () => {
           <ListItem button component={RouterLink} to="/Home/report">
             <ListItemText primary="Report" />
           </ListItem>
+          <ListItem button component={RouterLink} to="/Home/Event">
+            <ListItemText primary="Event" />
+          </ListItem>
           
         </List>
       </Drawer>

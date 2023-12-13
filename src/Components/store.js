@@ -11,6 +11,7 @@ import userReducer  from '../Components/UserComponent/userSlice';
 import userAttendanceReducer from '../Components/Leave/UserAttendence/UserAttendenceSlice';
 import manualRequestReducer from '../Components/ManualRequest/ManualRequestSlice';
 import userReportReducer from '../Components/UserReportHistory/UserReportSlice';
+import eventReducer from '../Components/Events/EventSlice';
 
 const store = configureStore({
   reducer: {
@@ -25,6 +26,7 @@ const store = configureStore({
     userAttendance: userAttendanceReducer,
     manualRequest: manualRequestReducer,
     userReport: userReportReducer,
+    events: eventReducer,
     
   },
 });

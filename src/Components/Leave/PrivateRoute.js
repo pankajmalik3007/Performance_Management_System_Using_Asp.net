@@ -11,6 +11,7 @@ import UserDetailsByName from '../UserComponent/UserDetailsByName';
 import Attendence from './UserAttendence/Attendence';
 import ManualRequestComponent from '../ManualRequest/ManualRequestComponent';
 import UserReport from '../UserReportHistory/UserReport';
+import EventComponent from '../Events/EventComponent';
 
 
 
@@ -40,6 +41,7 @@ const PrivateRoute = () => {
       <Route path = " Attendencehistory" element={<Attendence/>}/>
       <Route path = "ManualRequest" element = {<ManualRequestComponent/>}/>
       <Route path = "report" element = {<UserReport/>}/>
+      <Route path = "Event" element = {<EventComponent/>}/>
    
       {isHR ? (
         <>
