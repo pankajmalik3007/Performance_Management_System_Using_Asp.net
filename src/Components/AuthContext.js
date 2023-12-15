@@ -69,6 +69,8 @@
 // };
 
 
+// wORKING cODE 
+
 
 import { createContext, useContext, useState, useEffect } from 'react';
 
@@ -129,7 +131,7 @@ export const AuthProvider = ({ children }) => {
     role: decodedToken && decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role']
       ? decodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role']
       : null,
-  };
+   };
   
   return (
     <AuthContext.Provider value={{ user: mergedUser, isHR: mergedUser?.role === 'HR', isLoading, userDataLoaded }}>

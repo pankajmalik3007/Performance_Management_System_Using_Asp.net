@@ -11,8 +11,10 @@ import userReducer  from '../Components/UserComponent/userSlice';
 import userAttendanceReducer from '../Components/Leave/UserAttendence/UserAttendenceSlice';
 import manualRequestReducer from '../Components/ManualRequest/ManualRequestSlice';
 import userReportReducer from '../Components/UserReportHistory/UserReportSlice';
-import eventReducer from '../Components/Events/EventSlice';
-
+import eventReducer from '../Components/Event/EventSlice';
+import eventInsertReducer from '../Components/EventInsert/EventInsertSlice';
+import userManualReducer from '../Components/ManualRequest/ShowManual/UserManualSlice';
+import manualApprovalReducer from '../Components/ManualRequest/HRAPPROVAL/ManualApprovalSlice';
 const store = configureStore({
   reducer: {
     auth: authReducer,
@@ -26,8 +28,10 @@ const store = configureStore({
     userAttendance: userAttendanceReducer,
     manualRequest: manualRequestReducer,
     userReport: userReportReducer,
-    events: eventReducer,
-    
+    event: eventReducer,
+    eventInsert: eventInsertReducer,
+    userManual: userManualReducer, 
+    manualApproval: manualApprovalReducer,
   },
 });
 

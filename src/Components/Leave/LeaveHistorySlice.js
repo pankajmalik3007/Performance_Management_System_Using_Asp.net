@@ -95,7 +95,7 @@ const userId = await JSON.parse(atob(token.split('.')[1])).UserId;
           Authorization: `Bearer ${token}`,
         },
       });
-
+console.log("Api response " , response);
       if (!response.ok) {
         const errorMessage = await response.text();
         throw new Error(errorMessage);
@@ -108,10 +108,6 @@ const userId = await JSON.parse(atob(token.split('.')[1])).UserId;
     }
   }
 );
-
-
-
-
 
 
 const leaveHistorySlice = createSlice({

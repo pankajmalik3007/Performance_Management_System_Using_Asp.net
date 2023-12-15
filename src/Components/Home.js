@@ -463,14 +463,24 @@ const Home = () => {
           </ListItem> */}
           <ListItem button component={RouterLink} to="/Home/ManualRequest">
             <ListItemText primary="Manual Request" />
-          </ListItem>
+            </ListItem>
+           
+        
           <ListItem button component={RouterLink} to="/Home/report">
             <ListItemText primary="Report" />
           </ListItem>
           <ListItem button component={RouterLink} to="/Home/Event">
             <ListItemText primary="Event" />
           </ListItem>
-          
+          <ListItem button component={RouterLink} to="/Home/EventInsert">
+            <ListItemText primary="EventInsert" />
+          </ListItem>
+          <ListItem button component={RouterLink} to="/Home/ShowManual">
+            <ListItemText primary="ShowManual"/>
+          </ListItem>
+          <ListItem button component={RouterLink} to="/Home/RequestApproval">
+            <ListItemText primary="RequestApproval"/>
+          </ListItem>
         </List>
       </Drawer>
       <Outlet />

@@ -5,13 +5,16 @@ import Home from '../Home';
 import LeaveApp from './LeaveApplication';
 import LeaveStatus from './LeaveStatus';
 import LeaveHistory from './LeaveHistory';
-import ClockInOut from '../TimeManagement/ClockInOut';
+
 
 import UserDetailsByName from '../UserComponent/UserDetailsByName';
 import Attendence from './UserAttendence/Attendence';
 import ManualRequestComponent from '../ManualRequest/ManualRequestComponent';
 import UserReport from '../UserReportHistory/UserReport';
-import EventComponent from '../Events/EventComponent';
+import EventComponent from '../Event/EventComponent';
+import EventInsertComponent from '../EventInsert/EventInsertComponent';
+import UserManualComponent from '../ManualRequest/ShowManual/UserManualComponent';
+import ManualApprovalComponent from '../ManualRequest/HRAPPROVAL/ManualApprovalComponent';
 
 
 
@@ -27,10 +30,7 @@ const PrivateRoute = () => {
   }
 
   const isHR = user?.role === 'HR';
- // console.log('User:', user);
-
-  //console.log('User Role:', user?.role);
- // console.log('Is HR:', isHR);
+ 
 
  return (
   <div>
@@ -42,16 +42,21 @@ const PrivateRoute = () => {
       <Route path = "ManualRequest" element = {<ManualRequestComponent/>}/>
       <Route path = "report" element = {<UserReport/>}/>
       <Route path = "Event" element = {<EventComponent/>}/>
-   
+      <Route path = "ShowManual" element = {<UserManualComponent/>}/>
+      <Route path = "EventInsert" element = {<EventInsertComponent/>}/>
+      <Route path = "RequestApproval" element ={<ManualApprovalComponent/>}/>
       {isHR ? (
         <>
           <Route path="userhistory" element={<UserDetailsByName />} />
           <Route path="leavestatus" element={<LeaveStatus />} />
+        
+         
         </>
       ) : (
         <>
           <Route path="userhistory" element={<p>You do not have access to this page.</p>} />
           <Route path="leavestatus" element={<p>You do not have access to this page.</p>} />
+          <Route path="EventInsert" element={<p>You do not have access to this page.</p>} />
         </>
       )}
     </Routes>

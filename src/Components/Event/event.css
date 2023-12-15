@@ -1,0 +1,11 @@
+/* EventComponent.css */
+.purple-table {
+    background-color: #6a0dad; /* Purple background color */
+    color: #ffffff; /* Text color */
+  }
+  
+  .purple-table th,
+  .purple-table td {
+    border-color: #ffffff; /* Border color for table headers and cells */
+  }
+  

@@ -74,7 +74,6 @@ const LeaveHistory = () => {
       <table>
         <thead>
           <tr>
-           
             <th>Type</th>
             <th>Username</th>
             <th>Reason</th>
@@ -83,13 +82,11 @@ const LeaveHistory = () => {
             <th>End Leave Date</th>
             <th>Leave Status Time</th>
             <th>Status</th>
-           
-          </tr>
+            </tr>
         </thead>
         <tbody>
           {leaves.map((leave) => (
             <tr key={leave.id}>
-             
               <td>{leave.leaveType}</td>
               <td>{usernames[leave.userId] || 'N/A'}</td>
               <td>{leave.reason}</td>
@@ -98,8 +95,7 @@ const LeaveHistory = () => {
               <td>{leave.endLeaveDate}</td>
               <td>{leave.leaveStatusTime}</td>
               <td>{leave.status}</td>
-             
-            </tr>
+              </tr>
           ))}
         </tbody>
       </table>

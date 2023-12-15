@@ -1,49 +1,4 @@
-// import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-// const getToken = () => {
-//     return localStorage.getItem('token');
-//   };
-// export const insertManualRequest = createAsyncThunk(
-//   'manualRequest/insertManualRequest',
-//   async (manualRequest, { rejectWithValue }) => {
-//     try {
-     
-//         const token =  getToken();
-//         console.log('Token:', token);
-//         const userId = await JSON.parse(atob(token.split('.')[1])).UserId;
-
-//       const response = await fetch('https://localhost:44356/api/ManualRequest/InsertManualRequest', {
-//         method: 'POST',
-//         headers: {
-//             'Content-Type': 'application/json',
-//             Authorization: `Bearer ${token}`,
-//         },
-//         body: JSON.stringify({ ...manualRequest, userId }),
-//       });
-
-    
-//       if (!response.ok) {
-//         let errorMessage;
-
-//         try {
-//           const errorJson = await response.json();
-//           errorMessage = errorJson.message || 'Failed to parse error message';
-//         } catch (jsonError) {
-//           errorMessage = response.statusText || 'Unknown error occurred';
-//         }
-
-//         console.error('Error:', errorMessage);
-//         throw new Error(errorMessage);
-//       }
-
-      
-//       return response.json();
-//     } catch (error) {
-//       console.error('Error:', error.message);
-//       return rejectWithValue(error.message);
-//     }
-//   }
-// );
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const insertManualRequest = createAsyncThunk(
