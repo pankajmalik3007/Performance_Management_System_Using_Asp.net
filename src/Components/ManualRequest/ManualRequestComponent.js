@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { insertManualRequest } from './ManualRequestSlice';
-import DatePicker from 'react-datepicker';
 import { useAuth } from '../AuthContext';
 import { Button, TextField, Grid, Paper, Typography } from '@mui/material';
+import { DatePicker, LocalizationProvider } from '@mui/lab';
 
 const ManualRequestComponent = () => {
   const dispatch = useDispatch();
@@ -24,14 +24,6 @@ const ManualRequestComponent = () => {
     setLeaveData({ ...leaveData, [e.target.name]: e.target.value });
   };
 
-  const handleStartDateChange = (date) => {
-    setLeaveData({ ...leaveData, clockInTime: date });
-  };
-
-  const handleEndDateChange = (date) => {
-    setLeaveData({ ...leaveData, clockOutTime: date });
-  };
-
   const handleSubmit = () => {
     if (!user || !user.UserId) {
       console.error('User ID not found. Unable to submit leave application.');
@@ -49,6 +41,7 @@ const ManualRequestComponent = () => {
 
     dispatch(insertManualRequest(payload));
   };
+
   return (
     <Grid container justifyContent="center" alignItems="center" style={{ height: '100vh' }}>
       <Grid item xs={12} sm={8} md={6} lg={4}>
@@ -60,34 +53,33 @@ const ManualRequestComponent = () => {
           <TextField
             fullWidth
             label="BreakType"
-            name="breakType" 
+            name="breakType"
             value={leaveData.breakType}
             onChange={handleInputChange}
             margin="normal"
           />
-          <DatePicker
-            selected={leaveData.clockInTime}
-            onChange={handleStartDateChange}
-            showTimeSelect
-            timeFormat="HH:mm"
-            timeIntervals={15}
-            dateFormat="MMMM d, yyyy h:mm aa"
-            style={{ marginTop: '10px' }}
+          <TextField
+            fullWidth
+            label="Clock In Time"
+            type="datetime-local"
+            name="clockInTime"
+            value={leaveData.clockInTime}
+            onChange={handleInputChange}
+            margin="normal"
           />
-          <br />
-          <DatePicker
-            selected={leaveData.clockOutTime}
-            onChange={handleEndDateChange}
-            showTimeSelect
-            timeFormat="HH:mm"
-            timeIntervals={15}
-            dateFormat="MMMM d, yyyy h:mm aa"
-            style={{ marginTop: '10px' }}
+          <TextField
+            fullWidth
+            label="Clock Out Time"
+            type="datetime-local"
+            name="clockOutTime"
+            value={leaveData.clockOutTime}
+            onChange={handleInputChange}
+            margin="normal"
           />
           <TextField
             fullWidth
             label="Remark"
-            name="employeeRemark" 
+            name="employeeRemark"
             value={leaveData.employeeRemark}
             onChange={handleInputChange}
             margin="normal"

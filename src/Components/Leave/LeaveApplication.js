@@ -1,7 +1,4 @@
-
-
 import React, { useState, useEffect } from 'react';
-import DatePicker from 'react-datepicker';
 import { useAuth } from '../AuthContext';
 import { useDispatch, useSelector } from 'react-redux';
 import { submitLeaveApplication } from './LeaveSlice';
@@ -14,8 +11,8 @@ const LeaveApp = () => {
   const [leaveData, setLeaveData] = useState({
     leaveType: '',
     reason: '',
-    startLeaveDate: new Date(),
-    endLeaveDate: new Date(),
+    startLeaveDate: new Date().toISOString().slice(0, 16),
+    endLeaveDate: new Date().toISOString().slice(0, 16),
   });
 
   const leaveStatus = useSelector((state) => state.leave.leaveStatus);
@@ -31,14 +28,6 @@ const LeaveApp = () => {
     setLeaveData({ ...leaveData, [e.target.name]: e.target.value });
   };
 
-  const handleStartDateChange = (date) => {
-    setLeaveData({ ...leaveData, startLeaveDate: date });
-  };
-
-  const handleEndDateChange = (date) => {
-    setLeaveData({ ...leaveData, endLeaveDate: date });
-  };
-
   const handleSubmit = () => {
     if (!user) {
       console.error('User is null. Unable to submit leave application.');
@@ -50,8 +39,8 @@ const LeaveApp = () => {
       leaveType: leaveData.leaveType,
       status: 'Pending',
       reason: leaveData.reason,
-      startLeaveDate: leaveData.startLeaveDate.toISOString(),
-      endLeaveDate: leaveData.endLeaveDate.toISOString(),
+      startLeaveDate: leaveData.startLeaveDate,
+      endLeaveDate: leaveData.endLeaveDate,
     };
 
     dispatch(submitLeaveApplication(payload));
@@ -83,24 +72,24 @@ const LeaveApp = () => {
             style={{ width: '100%', marginTop: '10px' }}
           />
           <br />
-          <DatePicker
-            selected={leaveData.startLeaveDate}
-            onChange={handleStartDateChange}
-            showTimeSelect
-            timeFormat="HH:mm"
-            timeIntervals={15}
-            dateFormat="MMMM d, yyyy h:mm aa"
-            style={{ marginTop: '10px' }}
+          <TextField
+            fullWidth
+            label="Start Leave Date and Time"
+            type="datetime-local"
+            name="startLeaveDate"
+            value={leaveData.startLeaveDate}
+            onChange={handleInputChange}
+            margin="normal"
           />
           <br />
-          <DatePicker
-            selected={leaveData.endLeaveDate}
-            onChange={handleEndDateChange}
-            showTimeSelect
-            timeFormat="HH:mm"
-            timeIntervals={15}
-            dateFormat="MMMM d, yyyy h:mm aa"
-            style={{ marginTop: '10px' }}
+          <TextField
+            fullWidth
+            label="End Leave Date and Time"
+            type="datetime-local"
+            name="endLeaveDate"
+            value={leaveData.endLeaveDate}
+            onChange={handleInputChange}
+            margin="normal"
           />
           <br />
           <Button

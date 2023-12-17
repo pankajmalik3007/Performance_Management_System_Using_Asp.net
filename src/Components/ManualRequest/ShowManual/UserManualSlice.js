@@ -9,16 +9,16 @@ export const ManualRequestbyuser = createAsyncThunk(
   'userManual/getUserManualRequests',
   async (_, { rejectWithValue, getState }) => {
     try {
+      const token =  getToken();
+      const userId = await JSON.parse(atob(token.split('.')[1])).UserId;
+      console.log(userId)
       const state = getState();
-      const userId = state.auth.user ? state.auth.user.UserId : null;
 
       if (!userId) {
         throw new Error('User ID not found in the state.');
       }
 
       console.log('Fetching data for user ID:', userId);
-
-      const token = getToken();
       const response = await fetch(`https://localhost:44356/api/ManualRequest/GetManualRequestByUserId/${userId}`, {
         method: 'GET',
         headers: {

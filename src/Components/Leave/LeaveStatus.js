@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from 'react';
 import './LeaveStatus.css';
 
@@ -60,9 +58,6 @@ const LeaveStatus = () => {
     dispatch(updateLeaveStatus({ leaveId, status: newStatus }));
 
   };
-  
-  
-
   return (
     <div className="leave-status-container">
       <h2>Leave Status (HR Only)</h2>

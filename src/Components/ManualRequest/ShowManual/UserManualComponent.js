@@ -4,18 +4,31 @@ import { ManualRequestbyuser } from './UserManualSlice';
 
 const UserManualComponent = () => {
   const dispatch = useDispatch();
-  const userId = localStorage.getItem('userId');
-
-  useEffect(() => {
-    if (userId) {
-      console.log('Dispatching getUserManualRequests');
-      dispatch(ManualRequestbyuser(userId));
-    }
-  }, [dispatch, userId]);
-
+  const storedToken = localStorage.getItem('token');
   const status = useSelector((state) => state.userManual.status);
   const error = useSelector((state) => state.userManual.error);
   const userManualRequests = useSelector((state) => state.userManual.userManualRequests);
+
+  useEffect(() => {
+    const fetchData = async() =>{
+      try{
+        if(storedToken){
+          const uniqueUserIds = [...new Set(userManualRequests.map((leave) => leave.userId))];
+          console.log(uniqueUserIds);
+          if (uniqueUserIds) {
+            console.log('Dispatching getUserManualRequests');
+            dispatch(ManualRequestbyuser(uniqueUserIds));
+          }
+        }
+      }catch(error){
+  
+      }
+    }
+
+    fetchData();
+  }, [dispatch]);
+
+
 
   console.log('Redux State:', userManualRequests);
   console.log('User Manual Requests:', userManualRequests);
@@ -42,8 +55,8 @@ const UserManualComponent = () => {
             <th>Break Type</th>
             <th>Clock In Time</th>
             <th>Clock Out Time</th>
-            <th>Status</th>
             <th>Employee Remark</th>
+            <th>Status</th>
           </tr>
         </thead>
         <tbody>
@@ -52,8 +65,8 @@ const UserManualComponent = () => {
               <td>{request.breakType}</td>
               <td>{request.clockInTime}</td>
               <td>{request.clockOutTime}</td>
-              <td>{request.status}</td>
               <td>{request.employeeRemark}</td>
+              <td>{request.status}</td>
             </tr>
           ))}
         </tbody>
