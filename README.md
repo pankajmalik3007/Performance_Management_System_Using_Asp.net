@@ -57,5 +57,5 @@ The system leverages JWT Bearer Token for secure authentication and authorizatio
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/attendance-management.git
-   cd attendance-management
+   git clone https://github.com/pankajmalik3007/Performance_Management_System_Using_Asp.net_React-js..git
+   
