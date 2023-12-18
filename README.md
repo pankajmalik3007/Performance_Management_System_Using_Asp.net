@@ -3,10 +3,10 @@
 
 ## Overview
 
-The backend of the Attendance Management System is developed using ASP.NET, providing a robust foundation for managing user attendance efficiently. It includes features such as clock-in/out, break tracking, user management, and robust authorization/authentication using JWT Bearer. The system is designed to handle attendance data seamlessly and includes error handling for a smooth user experience.
+The backend of the Performance Management System is developed using ASP.NET, providing a robust foundation for managing user attendance efficiently. It includes features such as clock-in/out, break tracking, user management, and robust authorization/authentication using JWT Bearer. The system is designed to handle Performance data seamlessly and includes error handling for a smooth user experience.The system employs role-based authentication for manual request approval && leave Request Approval && Insert Event Designated roles are responsible for approving or rejecting leave requests submitted by employees. 
 ## Objective 
 
-### The objective of the Attendance Management System is to create a platform that:
+### The objective of the Performance Management System is to create a platform that:
 - Facilitates easy and accurate tracking of employee attendance.
 - Streamlines user management operations with CRUD functionalities.
 - Ensures data security through JWT Bearer token authentication.
@@ -25,11 +25,14 @@ The backend of the Attendance Management System is developed using ASP.NET, prov
 ### Key Features
 
 - **User Management:** CRUD operations for managing user details.
-- **Clock-In/Out:** Track user attendance with clock-in and clock-out functionality.
-- **Break Management:** Record and manage breaks during working hours.
-- **Authorization and Authentication:** Secure access with JWT Bearer token authentication.
+- **Clock-In/Out:** Employees can seamlessly record their attendance by using clock-in and clock-out features.Timestamps for clock-in and clock-out events are stored in the database.
+- **Break Management:** The system includes break tracking functionality to monitor and manage breaks effectively.Break-related data is recorded for reporting and analysis purposes.
+- **Authorization and Authentication:** JWT Bearer Authentication is implemented to ensure secure and stateless authentication.Role-based authorization is used to control access to different parts of the system.
 - **Efficient Data Management:** Backend architecture for optimal handling of attendance data.
-- **Error Handling:** Robust error handling for a smooth user experience.
+- **Error Handling:** Comprehensive error handling is implemented to ensure a smooth user experience.Meaningful error messages and status codes are returned to clients, aiding in debugging and issue resolution.
+- **Role-Based Authentication for Manual Request Approval && Leave Request Approval:**
+  The system employs role-based authentication for manual request approval. Authorized personnel with specific roles have the ability to approve or reject manual attendance requests.
+  Similar to manual requests, leave requests are processed through role-based authentication. Designated roles are responsible for approving or rejecting leave requests submitted by employees.
 
 ## Technologies Used
 
