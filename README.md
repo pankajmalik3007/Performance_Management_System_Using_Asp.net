@@ -1,70 +1,153 @@
-# Getting Started with Create React App
+# Performance-Management-System
+# Backend for Performance Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The backend of the Performance Management System is developed using ASP.NET, providing a robust foundation for managing user attendance efficiently. It includes features such as clock-in/out, break tracking, user management, and robust authorization/authentication using JWT Bearer. The system is designed to handle Performance data seamlessly and includes error handling for a smooth user experience.The system employs role-based authentication for manual request approval && leave Request Approval && Insert Event Designated roles are responsible for approving or rejecting leave requests submitted by employees. 
+## Objective 
 
-In the project directory, you can run:
+### The objective of the Performance Management System is to create a platform that:
+- Facilitates easy and accurate tracking of employee attendance.
+- Streamlines user management operations with CRUD functionalities.
+- Ensures data security through JWT Bearer token authentication.
+- Enhances overall user experience with efficient error handling.
+## Business Needs
+### To meet the business needs, the system focuses on:
+- **Efficient Attendance Tracking:** Providing a reliable solution for accurately tracking and managing employee attendance.
+- **User-Friendly Management:** Offering a user-friendly interface for seamless user and attendance data management.
 
-### `npm start`
+## Real-Time_Events
+### The system incorporates real-time events using SignalR to provide a dynamic and responsive user experience. Key real-time features include:
+- **Live Clock-In/Out Updates:** Users receive real-time notifications when colleagues clock in or out.
+- **Dashboard Synchronization:**  Real-time synchronization of attendance data on the user dashboard.
+- **Break Notifications:** Instant notifications when a break is started or finished.
+- **Request Approval/Reject Notifications:** The system also includes real-time notifications for request approval or rejection. When a user requests time off or submits any form of leave, concerned parties are instantly notified of the approval or rejection status. This feature streamlines the leave management process and provides quick feedback to users.
+### Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Management:** CRUD operations for managing user details.
+- **Clock-In/Out:** Employees can seamlessly record their attendance by using clock-in and clock-out features.Timestamps for clock-in and clock-out events are stored in the database.
+- **Break Management:** The system includes break tracking functionality to monitor and manage breaks effectively.Break-related data is recorded for reporting and analysis purposes.
+- **Authorization and Authentication:** JWT Bearer Authentication is implemented to ensure secure and stateless authentication.Role-based authorization is used to control access to different parts of the system.
+- **Efficient Data Management:** Backend architecture for optimal handling of attendance data.
+- **Error Handling:** Comprehensive error handling is implemented to ensure a smooth user experience.Meaningful error messages and status codes are returned to clients, aiding in debugging and issue resolution.
+- **Role-Based Authentication for Manual Request Approval && Leave Request Approval:**
+  The system employs role-based authentication for manual request approval. Authorized personnel with specific roles have the ability to approve or reject manual attendance requests.
+  Similar to manual requests, leave requests are processed through role-based authentication. Designated roles are responsible for approving or rejecting leave requests submitted by employees.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Backend:** ASP.NET
+- **Authentication:** JWT Bearer Token
+- **Database:** Microsoft SQL Server Management Studio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Authentication and Authorization
 
-### `npm run build`
+The system leverages JWT Bearer Token for secure authentication and authorization. Here's a brief overview:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Authentication:** Users obtain a JWT Bearer token upon successful login.
+- **Authorization:** The token is required for accessing protected endpoints.
+- **Token Management:** Token expiration and refresh mechanisms for enhanced security.
+- **Secure Communication:** All communication is secured using HTTPS.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Install [Visual Studio](https://visualstudio.microsoft.com/) for ASP.NET development.
+- Set up [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# FrontEnd for Performance Management System
+Welcome to the frontend documentation of the Performance Management System. This documentation provides an overview of the user interface and functionalities of the system. The Performance Management System is designed to seamlessly interact with the backend, allowing users to efficiently manage attendance, request approvals, and handle performance-related data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
+- front_pms_system
+     -PMS_BACKEND_PROJECT
+     -Public
+     -Src
+          -Components
+  
+          -Event
+              -EventComponent.js
+              -EventSlice.js
+              -InsertEvent.js
+              -InsertEventSlice.js
+  
+          -Leave
+              -LeaveApplication.js
+              -LeaveApplicationSlice.js
+              -LeaveHistory.js
+              -LeaveHistorySlice.js
+              -LeaveStatus.js
+              -LeaveStatusslice.js
+  
+          -ManualRequest
+              -HrApprovalcomponent.js
+              -HrApprovalcomponentSlice.js
+              -UserManualComponent.js
+              -UserSlice.js
+              -ManualRequestComponent.js
+              -ManualRequestComponentSlice.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+          -PrivateRoute.js
+  
+          -TimeManagement
+              -ClockInOutSlice.js
+              -StartFinishBreak.js
+              -Constant.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+          -UserReport
+              -UserReportComponent.js
+              -UserReportSlice.js
 
-## Learn More
+          -AuthContext.js
+          -AuthContextSlice.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+          -Home.js
+          -Login.js
+          -store.js
+        
+  
+  ## Technologies Used
+  - **React.**
+  - **Redux/Toolkit.**
+  - **Thunk Middleware.**
+  - **Material-UI.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ## State Management
+  - **Redux Store.**
+  - **Actions and Reducers.**
 
-### Code Splitting
+  ## Routing
+  - **React Router Configuration**
+  - **Protected Routes**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Styling
+- **CSS-in-JS Approach**
+- **Theming with Material-UI**
 
-### Analyzing the Bundle Size
+## API Integration
+- **Communication with ASP.NET Backend**
+- **Authorization Headers**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Error Handling
+- **Client-Side Error Handling**
+- **User-Friendly Error Messages**
 
-### Making a Progressive Web App
+## Role-Based Authentication
+- **User Roles and Permissions**
+- **Access Control in the UI**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## User Interface
+- **Clock-In/Out Interface**
+- **Break Tracking Interface**
+- **User Management Interface**
+- **Manual Request Approval Interface**
+- **Leave Request Approval Interface**
+- **Insert Event Interface**
 
-### Advanced Configuration
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/pankajmalik3007/Performance_Management_System_Using_Asp.net_React-js..git
+   
