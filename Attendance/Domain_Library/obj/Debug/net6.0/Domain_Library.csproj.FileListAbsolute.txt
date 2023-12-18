@@ -1,0 +1,180 @@
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\working task of days\Poduct_Management_Test\Attendanace Management\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\New folder\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Source\Repos\Attendance-Management-System\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\Attendance_management-System\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\Attendance\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\Performance_Management_System\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\Attendance_Backend\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\New folder PMS Backend\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\Attendance1\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\PMS_Asp.net\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\panka\OneDrive\Desktop\PMS_B\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\BackendManagementSystem\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
