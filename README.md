@@ -108,14 +108,14 @@ Welcome to the frontend documentation of the Performance Management System. This
         
   
   ## Technologies Used
-  -React
-  -Redux/Toolkit
-  -Thunk Middleware
-  -Material-UI
+ - **React**
+  -Redux/Toolkit.
+  -Thunk Middleware.
+  -Material-UI.
 
   ## State Management
-  -Redux Store
-  -Actions and Reducers
+  -Redux Store.
+  -Actions and Reducers.
 
   ## Routing
   -React Router Configuration
