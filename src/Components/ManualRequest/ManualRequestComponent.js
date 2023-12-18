@@ -1,10 +1,9 @@
-
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { insertManualRequest } from './ManualRequestSlice';
 import { useAuth } from '../AuthContext';
-import { Button, TextField, Grid, Paper, Typography } from '@mui/material';
-import { DatePicker, LocalizationProvider } from '@mui/lab';
+import { Button, TextField, Grid, Paper, Typography,  MenuItem } from '@mui/material';
+
 
 const ManualRequestComponent = () => {
   const dispatch = useDispatch();
@@ -52,12 +51,18 @@ const ManualRequestComponent = () => {
           <div style={{ color: 'red', marginBottom: '10px' }}>{error}</div>
           <TextField
             fullWidth
-            label="BreakType"
+            select
+            label="Break Type"
             name="breakType"
             value={leaveData.breakType}
             onChange={handleInputChange}
             margin="normal"
-          />
+          >
+            <MenuItem value="Attendance">Attendance</MenuItem>
+            <MenuItem value="Lunch Break">Lunch Break</MenuItem>
+            <MenuItem value="Personal Break">Personal Break</MenuItem>
+            <MenuItem value="Official Break">Official Break</MenuItem>
+          </TextField>
           <TextField
             fullWidth
             label="Clock In Time"

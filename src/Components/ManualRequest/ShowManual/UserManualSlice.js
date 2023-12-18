@@ -19,7 +19,7 @@ export const ManualRequestbyuser = createAsyncThunk(
       }
 
       console.log('Fetching data for user ID:', userId);
-      const response = await fetch(`https://localhost:44356/api/ManualRequest/GetManualRequestByUserId/${userId}`, {
+      const response = await fetch(`https://localhost:7189/api/ManualRequest/GetManualRequestByUserId/${userId}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

@@ -17,7 +17,7 @@ export const updateComponent = createAsyncThunk(
       console.log('Parsed Token:', { userId, leaveIdFromToken });
       console.log('Updating leave with data:', updatedData);
 
-      const response = await fetch(`https://localhost:44356/api/Leave/UpdateLeave/${leaveIdFromToken}`, {
+      const response = await fetch(`https://localhost:7189/api/Leave/UpdateLeave/${leaveIdFromToken}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

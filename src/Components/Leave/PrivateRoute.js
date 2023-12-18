@@ -43,20 +43,21 @@ const PrivateRoute = () => {
       <Route path = "report" element = {<UserReport/>}/>
       <Route path = "Event" element = {<EventComponent/>}/>
       <Route path = "ShowManual" element = {<UserManualComponent/>}/>
-      <Route path = "EventInsert" element = {<EventInsertComponent/>}/>
-      <Route path = "RequestApproval" element ={<ManualApprovalComponent/>}/>
+     
+     
       {isHR ? (
         <>
           <Route path="userhistory" element={<UserDetailsByName />} />
           <Route path="leavestatus" element={<LeaveStatus />} />
-        
-         
+          <Route path = "RequestApproval" element ={<ManualApprovalComponent/>}/>
+          <Route path = "EventInsert" element = {<EventInsertComponent/>}/>
         </>
       ) : (
         <>
           <Route path="userhistory" element={<p>You do not have access to this page.</p>} />
           <Route path="leavestatus" element={<p>You do not have access to this page.</p>} />
           <Route path="EventInsert" element={<p>You do not have access to this page.</p>} />
+          <Route path="RequestApproval" element={<p>You do not have access to this page.</p>} />
         </>
       )}
     </Routes>

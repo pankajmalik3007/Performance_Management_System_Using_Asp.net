@@ -7,7 +7,7 @@ export const updateManualRequestStatus = createAsyncThunk(
     console.log('newStatus', newStatus);
 
     try {
-      const response = await fetch(`https://localhost:44356/api/ManualRequest/UpdateManualRequestStatus?manualRequestId=${manualRequestId}&newStatus=${newStatus} `, {
+      const response = await fetch(`https://localhost:7189/api/ManualRequest/UpdateManualRequestStatus?manualRequestId=${manualRequestId}&newStatus=${newStatus} `, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ export const getAllManualRequests = createAsyncThunk(
   async (_, { rejectWithValue, getState }) => {
     try {
       const state = getState();
-      const response = await fetch('https://localhost:44356/api/ManualRequest/GetAllManualRequests', {
+      const response = await fetch('https://localhost:7189/api/ManualRequest/GetAllManualRequests', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

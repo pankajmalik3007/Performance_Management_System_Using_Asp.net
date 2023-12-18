@@ -37,7 +37,7 @@ const EventComponent = () => {
   return (
     <div>
       <h2>My Events</h2>
-      <TableContainer component={Paper} className="dark-table"> {/* Add class to Paper */}
+      <TableContainer component={Paper} className="dark-table"> 
         <Table>
           <TableHead>
             <TableRow>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../AuthContext';
 import { useDispatch, useSelector } from 'react-redux';
 import { submitLeaveApplication } from './LeaveSlice';
-import { Button, TextField, TextareaAutosize, Grid, Paper, Typography } from '@mui/material';
+import { Button, TextField, TextareaAutosize, Grid, Paper, Typography, Select, MenuItem } from '@mui/material';
 
 const LeaveApp = () => {
   const dispatch = useDispatch();
@@ -56,12 +56,21 @@ const LeaveApp = () => {
           <div style={{ color: 'red', marginBottom: '10px' }}>{error}</div>
           <TextField
             fullWidth
+            select
             label="Leave Type"
             name="leaveType"
             value={leaveData.leaveType}
             onChange={handleInputChange}
             margin="normal"
-          />
+          >
+             <MenuItem value="Full Day">Full Day</MenuItem>
+             <MenuItem value="Second Half">Second Half</MenuItem>
+             <MenuItem value="First Half">First Half</MenuItem>
+            <MenuItem value="Sick Leave">Sick Leave</MenuItem>
+            <MenuItem value="Vacation">Vacation</MenuItem>
+            <MenuItem value="Personal Leave">Personal Leave</MenuItem>
+           
+          </TextField>
           <br />
           <TextareaAutosize
             rowsMin={4}

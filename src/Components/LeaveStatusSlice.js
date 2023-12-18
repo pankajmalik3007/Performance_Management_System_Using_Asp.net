@@ -6,7 +6,7 @@ export const updateLeaveStatus = createAsyncThunk(
     'leaveStatus/updateLeaveStatus',
     async ({ leaveId, status }, { rejectWithValue }) => {
       try {
-        const response = await fetch(`https://localhost:44356/api/Leave/UpdateLeaveStatus?leaveId=${leaveId}&status=${status}`, {
+        const response = await fetch(`https://localhost:7189/api/Leave/UpdateLeaveStatus?leaveId=${leaveId}&status=${status}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ export const getAllLeaves = createAsyncThunk(
   async (_, { rejectWithValue, getState }) => {
     try {
       const state = getState();
-      const response = await fetch('https://localhost:44356/api/Leave/GetAllLeaves', {
+      const response = await fetch('https://localhost:7189/api/Leave/GetAllLeaves', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

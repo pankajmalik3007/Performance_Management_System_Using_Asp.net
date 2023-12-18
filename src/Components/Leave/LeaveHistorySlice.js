@@ -17,7 +17,7 @@ const userId = await JSON.parse(atob(token.split('.')[1])).UserId;
         throw new Error('User ID not found in the token.');
       }
 
-      const response = await fetch(`https://localhost:44356/api/LeaveHistory/${userId}`, {
+      const response = await fetch(`https://localhost:7189/api/LeaveHistory/${userId}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

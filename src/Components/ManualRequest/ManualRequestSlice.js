@@ -5,7 +5,7 @@ export const insertManualRequest = createAsyncThunk(
   'leaveData/insertManualRequest',
   async (payload, { rejectWithValue }) => {
     try {
-      const response = await fetch('https://localhost:44356/api/ManualRequest/InsertManualRequest', {
+      const response = await fetch('https://localhost:7189/api/ManualRequest/InsertManualRequest', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

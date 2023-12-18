@@ -14,7 +14,7 @@ export const insertEvent = createAsyncThunk(
         throw new Error('Token not found.');
       }
 
-      const response = await fetch('https://localhost:44356/api/Event', {
+      const response = await fetch('https://localhost:7189/api/Event', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -46,7 +46,7 @@ export const fetchAllEvents = createAsyncThunk(
         throw new Error('Token not found.');
       }
 
-      const response = await fetch('https://localhost:44356/api/Event', {
+      const response = await fetch('https://localhost:7189/api/Event', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -77,7 +77,7 @@ export const deleteEventById = createAsyncThunk(
         throw new Error('Token not found.');
       }
 
-      const response = await fetch(`https://localhost:44356/api/Event/${eventId}`, {
+      const response = await fetch(`https://localhost:7189/api/Event/${eventId}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

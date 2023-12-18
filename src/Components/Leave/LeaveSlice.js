@@ -4,7 +4,7 @@ export const submitLeaveApplication = createAsyncThunk(
   'leave/submitLeaveApplication',
   async (leaveData, { rejectWithValue }) => {
     try {
-      const response = await fetch('https://localhost:44356/api/Leave/InsertLeave', {
+      const response = await fetch('https://localhost:7189/api/Leave/InsertLeave', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

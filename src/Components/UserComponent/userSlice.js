@@ -5,7 +5,7 @@ export const fetchUserDetails = createAsyncThunk(
     'user/fetchUserDetails',
     async (username) => {
       try {
-        const response = await fetch(`https://localhost:44356/api/Report/DataByUsername?username=${username}`);
+        const response = await fetch(`https://localhost:7189/api/Report/DataByUsername?username=${username}`);
         if (!response.ok) {
           throw new Error('Failed to fetch user details');
         }

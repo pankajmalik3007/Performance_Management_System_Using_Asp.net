@@ -16,7 +16,7 @@ const LeaveStatus = () => {
 
   const fetchUsernameById = async (userId) => {
     try {
-      const response = await fetch(`https://localhost:44356/api/User/GetUserType?Id=${userId}`);
+      const response = await fetch(`https://localhost:7189/api/User/GetUserType?Id=${userId}`);
       const data = await response.json();
 
       if (response.ok) {
