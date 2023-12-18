@@ -1,5 +1,5 @@
 # Performance-Management-System
-# Backend for Attendance Management System
+# Backend for Performance Management System
 
 ## Overview
 
