@@ -108,42 +108,42 @@ Welcome to the frontend documentation of the Performance Management System. This
         
   
   ## Technologies Used
- - **React**
+  - **React.**
   - **Redux/Toolkit.**
-  -Thunk Middleware.
-  -Material-UI.
+  - **Thunk Middleware.**
+  - **Material-UI.**
 
   ## State Management
-  -Redux Store.
-  -Actions and Reducers.
+  - **Redux Store.**
+  - **Actions and Reducers.**
 
   ## Routing
-  -React Router Configuration
-  -Protected Routes
+  -**React Router Configuration**
+  -**Protected Routes**
 
 ## Styling
--CSS-in-JS Approach
--Theming with Material-UI
+-**CSS-in-JS Approach**
+-**Theming with Material-UI**
 
 ## API Integration
--Communication with ASP.NET Backend
--Authorization Headers
+-**Communication with ASP.NET Backend**
+-**Authorization Headers**
 
 ## Error Handling
--Client-Side Error Handling
--User-Friendly Error Messages
+-**Client-Side Error Handling**
+-**User-Friendly Error Messages**
 
 ## Role-Based Authentication
--User Roles and Permissions
--Access Control in the UI
+-**User Roles and Permissions**
+-**Access Control in the UI**
 
 ## User Interface
--Clock-In/Out Interface
--Break Tracking Interface
--User Management Interface
--Manual Request Approval Interface
--Leave Request Approval Interface
--Insert Event Interface
+-**Clock-In/Out Interface**
+-**Break Tracking Interface**
+-**User Management Interface**
+-**Manual Request Approval Interface**
+-**Leave Request Approval Interface**
+-**Insert Event Interface**
 
 ### Installation
 
