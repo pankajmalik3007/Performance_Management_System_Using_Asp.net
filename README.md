@@ -56,6 +56,36 @@ The system leverages JWT Bearer Token for secure authentication and authorizatio
 - Install [Visual Studio](https://visualstudio.microsoft.com/) for ASP.NET development.
 - Set up [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
+# FrontEnd for Performance Management System
+Welcome to the frontend documentation of the Performance Management System. This documentation provides an overview of the user interface and functionalities of the system. The Performance Management System is designed to seamlessly interact with the backend, allowing users to efficiently manage attendance, request approvals, and handle performance-related data.
+
+## Project Structure
+- front_pms_system
+     -PMS_BACKEND_PROJECT
+     -Public
+     -Src
+          -Components
+  
+          -Event
+              -EventComponent.js
+              -EventSlice.js
+              -InsertEvent.js
+              -InsertEventSlice.js
+  
+          -Leave
+              -LeaveApplication.js
+              -LeaveApplicationSlice.js
+              -LeaveHistory.js
+              -LeaveHistorySlice.js
+              -LeaveStatus.js
+              -LeaveStatusslice.js
+  
+          -ManualRequest
+              -HrApprovalcomponent.js
+              -HrApprovalcomponentSlice.js
+  
+                   
+
 ### Installation
 
 1. Clone the repository.
