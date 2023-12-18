@@ -83,8 +83,67 @@ Welcome to the frontend documentation of the Performance Management System. This
           -ManualRequest
               -HrApprovalcomponent.js
               -HrApprovalcomponentSlice.js
+              -UserManualComponent.js
+              -UserSlice.js
+              -ManualRequestComponent.js
+              -ManualRequestComponentSlice.js
+
+          -PrivateRoute.js
   
-                   
+          -TimeManagement
+              -ClockInOutSlice.js
+              -StartFinishBreak.js
+              -Constant.js
+
+          -UserReport
+              -UserReportComponent.js
+              -UserReportSlice.js
+
+          -AuthContext.js
+          -AuthContextSlice.js
+
+          -Home.js
+          -Login.js
+          -store.js
+        
+  
+  ## Technologies Used
+  -React
+  -Redux/Toolkit
+  -Thunk Middleware
+  -Material-UI
+
+  ## State Management
+  -Redux Store
+  -Actions and Reducers
+
+  ## Routing
+  -React Router Configuration
+  -Protected Routes
+
+## Styling
+-CSS-in-JS Approach
+-Theming with Material-UI
+
+## API Integration
+-Communication with ASP.NET Backend
+-Authorization Headers
+
+## Error Handling
+-Client-Side Error Handling
+-User-Friendly Error Messages
+
+## Role-Based Authentication
+-User Roles and Permissions
+-Access Control in the UI
+
+## User Interface
+-Clock-In/Out Interface
+-Break Tracking Interface
+-User Management Interface
+-Manual Request Approval Interface
+-Leave Request Approval Interface
+-Insert Event Interface
 
 ### Installation
 
