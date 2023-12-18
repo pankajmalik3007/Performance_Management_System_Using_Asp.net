@@ -109,7 +109,7 @@ Welcome to the frontend documentation of the Performance Management System. This
   
   ## Technologies Used
  - **React**
-  -Redux/Toolkit.
+  - **Redux/Toolkit.**
   -Thunk Middleware.
   -Material-UI.
 
