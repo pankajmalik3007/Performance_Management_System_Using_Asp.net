@@ -66,7 +66,7 @@ const LeaveStatus = () => {
           <tr>
             <th>LeaveId</th>
             <th>Type</th>
-            <th>Username</th>
+            {/* <th>Username</th> */}
             <th>Reason</th>
             <th>Leave Request Time</th>
             <th>Start Leave Date</th>
@@ -81,7 +81,7 @@ const LeaveStatus = () => {
             <tr key={leave.id}>
               <td>{leave.id}</td>
               <td>{leave.leaveType}</td>
-              <td>{usernames[leave.userId] || 'N/A'}</td>
+              {/* <td>{usernames[leave.userId] || 'N/A'}</td> */}
               <td>{leave.reason}</td>
               <td>{leave.leaveRequestTime}</td>
               <td>{leave.startLeaveDate}</td>

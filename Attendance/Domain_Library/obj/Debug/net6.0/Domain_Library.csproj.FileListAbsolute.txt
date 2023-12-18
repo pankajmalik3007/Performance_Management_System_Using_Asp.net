@@ -178,3 +178,15 @@ C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS
 C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
 C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
 C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\src\PMS_BACKEND_SYSTEM\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.deps.json
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\bin\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.AssemblyReference.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfoInputs.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.AssemblyInfo.cs
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\refint\Domain_Library.dll
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\Domain_Library.pdb
+C:\Users\TGSUser148\Desktop\FrontEndManagementSystem\frontend_PMS_system\Attendance\Domain_Library\obj\Debug\net6.0\ref\Domain_Library.dll
